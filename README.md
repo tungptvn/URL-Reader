@@ -9,10 +9,10 @@
 - Rigth click to URL and chose 'View URL'
 - Close Reader mode by click 'x' button at the top right , or press 'ESC'
 
-## How to install extenion
+## How to install
 
-- Download this <b>source code</b>
-- Go to Chrome -> Go: chrome://extensions/ -> Load Unpacked -> Open the <b>source code</b>
+- Clone or Download this Source (if Download ZIP then UnZIP it)
+- Go to Chrome -> Go: chrome://extensions/ -> Load Unpacked -> Open the Source folder
 - Install success like this
 
 ![Install success](docs/install.png)
