@@ -1,3 +1,6 @@
+
+
+
 $(document).ready(async function () {
     const containerId = "ur-container"
     const iframeId = "ur-iframe"
@@ -185,8 +188,6 @@ $(document).ready(async function () {
             margin-bottom: 1rem;
             /* color:transparent; */
           }
-          body :link { color: #0000EE; }
-          body :visited { color: #551A8B; }
 
           #ur-close {
             position: fixed;
