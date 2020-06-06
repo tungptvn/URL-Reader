@@ -2,6 +2,7 @@
 
 ## It looks like 
 
+![It looks like](docs/look1.png)
 
 ## How to use
 
@@ -13,3 +14,11 @@
 - Download this <b>source code</b>
 - Go to Chrome -> Go: chrome://extensions/ -> Load Unpacked -> Open the <b>source code</b>
 - Install success like this
+
+![Install success](docs/install.png)
+
+## Contributing
+
+Interested in contributing? Awesome!
+
+Thanks!
