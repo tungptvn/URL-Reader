@@ -55,6 +55,10 @@ $(document).ready(async function () {
             closeReader()
         }
     };
+    
+    window.onclick =  function(){
+        if( getIframe() ) closeReader()
+    } 
 
     // handle scroll
     $("#" + containerId).scroll(function () {
