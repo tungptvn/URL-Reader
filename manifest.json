@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "main.js" ]
+   },
+   "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "exclude_matches":["https://www.facebook.com/*"],
+        "css": ["style/style.css","style/jquery-ui.css"]
+      }
+    ],
+   "browser_action": {
+      "default_icon":"icons/128.png",
+      "default_title": "View URL"
+   },
+   "icons": { 
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png" },
+   "commands": {
+      
+   },
+   "name": "View URL",
+  
+   "permissions": [ "tabs", "activeTab", "contextMenus", "http://*/*", "https://*/*", "storage" ],
+   "short_name": "View URL",
+   "version": "0.0.2",
+   "manifest_version": 2
+}
