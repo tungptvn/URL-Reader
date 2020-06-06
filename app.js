@@ -56,10 +56,6 @@ $(document).ready(async function () {
         }
     };
     
-    window.onclick =  function(){
-        if( getIframe() ) closeReader()
-    } 
-
     // handle scroll
     $("#" + containerId).scroll(function () {
         var scrollHeight = $("#" + containerId)[0].scrollHeight;
