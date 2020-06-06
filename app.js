@@ -41,7 +41,7 @@ $(document).ready(async function () {
     $(getIframe()).find("#ur-close").on("click", closeReader)
 
     // handle Escape press
-    document.onkeydown = function (evt) {
+    document.onkeydown = getIframe().onkeydown  = function (evt) {
         evt = evt || window.event;
         var isEscape = false;
 
