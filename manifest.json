@@ -11,7 +11,7 @@
     ],
    "browser_action": {
       "default_icon":"icons/128.png",
-      "default_title": "View URL"
+      "default_title": "URL Reader"
    },
    "icons": { 
       "16": "icons/16.png",
@@ -20,10 +20,10 @@
    "commands": {
       
    },
-   "name": "View URL",
+   "name": "URL Reader",
   
    "permissions": [ "tabs", "activeTab", "contextMenus", "http://*/*", "https://*/*", "storage" ],
-   "short_name": "View URL",
-   "version": "0.0.2",
+   "short_name": "URL Reader",
+   "version": "1.0.0",
    "manifest_version": 2
 }
