@@ -2,7 +2,7 @@
 
 ## It looks like 
 
-![It looks like](docs/look1.png)
+![It looks like](docs/look.png)
 
 ## How to use
 

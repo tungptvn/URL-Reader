@@ -22,7 +22,7 @@
    },
    "name": "URL Reader",
   
-   "permissions": [ "tabs", "activeTab", "contextMenus", "http://*/*", "https://*/*", "storage" ],
+   "permissions": [ "tabs", "contextMenus", "http://*/*", "https://*/*"],
    "short_name": "URL Reader",
    "version": "1.0.0",
    "manifest_version": 2
