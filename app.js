@@ -90,12 +90,6 @@ $(document).ready(async function () {
         container.style.position = "fixed";
         container.style.top = "0px";
         container.style.right = "0px";
-        container.style.zIndex = "9000000000000000000";
-        container.style.overflow = "auto";
-
-        $('body').css("background-color") != "rgba(0, 0, 0, 0)" ?
-            container.style.backgroundColor = $('body').css("background-color")
-            : container.style.backgroundColor = "#fff";
 
         return container;
     }
@@ -151,14 +145,6 @@ $(document).ready(async function () {
     function getURI(url) {
         var elUrl = document.createElement('a')
         elUrl.href = url
-        var uri = {
-            spec: elUrl.href,
-            host: elUrl.host,
-            prePath: elUrl.protocol + "//" + elUrl.host,
-            scheme: elUrl.protocol.substr(0, elUrl.protocol.indexOf(":")),
-            pathBase: elUrl.protocol + "//" + elUrl.host + elUrl.pathname.substr(0, elUrl.pathname.lastIndexOf("/") + 1)
-        };
-
         return elUrl
     }
     function addCssIframe(){
@@ -186,7 +172,6 @@ $(document).ready(async function () {
           body footer br{
             margin-top:  1rem ;
             margin-bottom: 1rem;
-            /* color:transparent; */
           }
 
           #ur-close {
@@ -207,7 +192,7 @@ $(document).ready(async function () {
         return frames[iframeId ].contentWindow.document
     }
     function hostShouldKeepScroll(){
-        return ['en.wikipedia.org']
+        return ['wikipedia.org']
     }
 
 });
