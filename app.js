@@ -90,6 +90,7 @@ $(document).ready(async function () {
         container.style.position = "fixed";
         container.style.top = "0px";
         container.style.right = "0px";
+        container.style.zIndex = "9000000000000000000";
 
         return container;
     }
