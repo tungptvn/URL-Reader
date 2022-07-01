@@ -11,6 +11,11 @@
 
 ## How to install
 
+### install from Chrome Web Store
+Visit to link [Chrome Web Store](https://chrome.google.com/webstore/detail/url-reader/cjiagapahflodiohcblmknmbaanipomj?hl=en)
+https://chrome.google.com/webstore/detail/url-reader/cjiagapahflodiohcblmknmbaanipomj?hl=en
+
+### install manually
 - Clone or Download this Source (if Download ZIP then UnZIP it)
 - Go to Chrome -> Go: chrome://extensions/ -> Load Unpacked -> Open the Source folder
 - Install success like this
